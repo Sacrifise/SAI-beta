@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import ContainerWeather from './containerWeather'
+import ContainerTodo from './containerTodo';
+import ContainerCalculator from './containerCalculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div id="XYZ">...</div>
+      <div class="greet">Greetings</div>
+      <div class="back"></div>
+      <div class="back2"></div>
+      <div class="back3"></div>
+      <div class="textdec">greetings user</div>
+      <div class="title">
+        <p class="title-name">SAI</p>
+      </div>
+      <div className = "container">
+        <ContainerWeather city={'barnaul'}/>
+        <ContainerTodo/>
+        <ContainerCalculator/>
+      </div>
     </div>
   );
 }
