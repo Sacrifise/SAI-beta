@@ -7,7 +7,7 @@ const ContainerTodo = () => {
         <div className="container-item todobox hover">todo
             <div className='todobox-input'>
                 <form className="form" action="" method="post">
-                    <label for="name"> Your todo</label>
+                    <label> Your todo</label>
                     <input type="text" placeholder="new todo" id = "new-todo" className="todo-input"/>
                 </form>
             </div>

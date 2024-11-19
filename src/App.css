@@ -204,3 +204,62 @@
   font-weight: bolder;
   position:absolute;
 }
+
+
+.window_container{
+  margin: 10px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.block{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #950740;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: white;
+  border-radius: 30px;
+  user-select: none;
+  transition: 0.1s;
+
+}
+.blockbot{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #950740;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: white;
+  border-radius: 30px;
+
+
+}
+.blockequal{
+  width: 97%;
+  background-color: #950740;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: white;
+
+}
+.block:active, .blockbot:active{
+  color: #5E224B;
+  background-color: #f48598;
+}
+.container-calculate{
+  padding: 40px;
+  width: 90%;
+  height: 100%;
+}
+
+.calculator{
+  height: auto;
+}

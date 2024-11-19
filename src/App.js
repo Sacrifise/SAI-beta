@@ -8,13 +8,13 @@ function App() {
   return (
     <div>
       <div id="XYZ">...</div>
-      <div class="greet">Greetings</div>
-      <div class="back"></div>
-      <div class="back2"></div>
-      <div class="back3"></div>
-      <div class="textdec">greetings user</div>
-      <div class="title">
-        <p class="title-name">SAI</p>
+      <div className="greet">Greetings</div>
+      <div className="back"></div>
+      <div className="back2"></div>
+      <div className="back3"></div>
+      <div className="textdec">greetings user</div>
+      <div className="title">
+        <p className="title-name">SAI</p>
       </div>
       <div className = "container">
         <ContainerWeather city={'barnaul'}/>
