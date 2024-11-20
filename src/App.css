@@ -263,3 +263,15 @@
 .calculator{
   height: auto;
 }
+
+
+
+.formNut{
+  display: flex;
+  flex-direction: column;
+}
+
+.totalNut{
+  display: flex;
+  gap: 5px;
+}

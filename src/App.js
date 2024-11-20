@@ -3,6 +3,7 @@ import './App.css';
 import ContainerWeather from './containerWeather'
 import ContainerTodo from './containerTodo';
 import ContainerCalculator from './containerCalculator';
+import ComponentNutCalc from './componentNutCalc';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <ContainerWeather city={'barnaul'}/>
         <ContainerTodo/>
         <ContainerCalculator/>
+        <ComponentNutCalc />
       </div>
     </div>
   );
