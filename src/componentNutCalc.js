@@ -67,7 +67,7 @@ class ComponentNutCalc extends React.Component{
 
     render(){
         return(
-            <div className="container-item">FuckNutCalc
+            <div className="container-item Nut-calc">FuckNutCalc
                 <form onSubmit = {this.handleForm} className="formNut" action="" method="post">
                     <label> Название </label>
                     <input type="text" placeholder="Название" id = "new-todo" className="nut-input-name nut-input" />
@@ -77,7 +77,7 @@ class ComponentNutCalc extends React.Component{
                     <input type="text" placeholder="Жиры" id = "new-todo" className="nut-input-fat nut-input"/>
                     <label> Угли </label>
                     <input type="text" placeholder="Углеводы" id = "new-todo" className="nut-input-ugli nut-input"/>
-                    <button type="submit">Подтвердить</button>
+                    <button className = "submitNut" type="submit">Подтвердить</button>
                 </form>
                 <div className="totalNut">
                     <div>Белки: {this.state.totProt}</div>

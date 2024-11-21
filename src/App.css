@@ -275,3 +275,69 @@
   display: flex;
   gap: 5px;
 }
+
+
+.nut-input{
+  background-color: black;
+  border-radius: 20px;
+  border: solid 2px;
+  color: white;
+  border-color: black;
+  transform: scale(1);
+  transition: transform, background-color 0.3s;
+}
+
+.nut-input:hover{
+  transition-property: background-color, transform;
+  background-color: #950740;
+  transform: scale(1.05);
+}
+
+.submitNut{
+  margin-top: 10px;
+  background-color: black;
+  border-radius: 20px;
+  border: solid 2px;
+  color: white;
+  border-color: black;
+  transition: hi 0.4s;
+  
+}
+.submitNut:hover{
+  transition-property: background-color, box-shadow, border-color, color;
+  transition-duration: 1s;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px 2px #950740;
+  border-color: #ffffff;
+  color: #950740;
+
+}
+.submitNut:not(:hover){
+  transition-property: background-color, box-shadow, border-color, color;
+  transition-duration: 1s;
+  background-color: black;
+  border-color: black;
+  color: white;
+  box-shadow: 0 0 0 0;
+
+}
+
+.submitNut:active{
+  transition-property: background-color, box-shadow, border-color, color;
+  transition-duration: 1s;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px 2px #950740;
+  border-color: #ffffff;
+  color: #950740;
+
+}
+
+.Nut-calc{
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.totalNut{
+  display: flex;
+  flex-direction: column;
+}
