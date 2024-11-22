@@ -341,3 +341,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.form-dead{
+  display: flex;
+  flex-direction: column;
+}

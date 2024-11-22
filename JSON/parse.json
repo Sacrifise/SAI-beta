@@ -144,13 +144,13 @@
   "comments": [
     {
       "id": "1",
-      "text": "todo1",
-      "postId": "1"
+      "task": "FUUUUCK U",
+      "date": "1-20-2024"
     },
     {
       "id": "2",
-      "text": "todo2",
-      "postId": "1"
+      "task": "todo and not todo",
+      "date": "5-10-2025"
     }
   ],
   "profile": {

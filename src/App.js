@@ -4,6 +4,7 @@ import ContainerWeather from './containerWeather'
 import ContainerTodo from './containerTodo';
 import ContainerCalculator from './containerCalculator';
 import ComponentNutCalc from './componentNutCalc';
+import ContainerDeadline from './containerDeadline';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <ContainerTodo/>
         <ContainerCalculator/>
         <ComponentNutCalc />
+        <ContainerDeadline/>
       </div>
     </div>
   );
