@@ -77,7 +77,7 @@ class ComponentNutCalc extends React.Component{
                     <input type="text" placeholder="Жиры" id = "new-todo" className="nut-input-fat nut-input"/>
                     <label> Угли </label>
                     <input type="text" placeholder="Углеводы" id = "new-todo" className="nut-input-ugli nut-input"/>
-                    <button className = "submitNut" type="submit">Подтвердить</button>
+                    <button className = "submitNut btn" type="submit">Подтвердить</button>
                 </form>
                 <div className="totalNut">
                     <div>Белки: {this.state.totProt}</div>

@@ -10,6 +10,8 @@ class ContainerDeadline extends React.Component {
         this.handleDead = this.handleDead.bind(this);
         this.handleFormDead = this.handleFormDead.bind(this);
         this.createDead = this.createDead.bind(this);
+        this.deletePost = this.deletePost.bind(this);
+        this.deleteAnim = this.deleteAnim.bind(this);
     }
 
     componentDidMount(){
@@ -31,6 +33,8 @@ class ContainerDeadline extends React.Component {
             task: inputText.value,
         }
         this.createDead(content);
+        inputDate.value = '';
+        inputText.value = '';
     }
 
     createDead(content){
@@ -47,18 +51,32 @@ class ContainerDeadline extends React.Component {
         }).then(res => res.json()).then(json =>  this.handleDead(json));
     }
 
+    deletePost(index){
+        fetch(`http://localhost:3001/comments/${index}`, { 
+            method: 'DELETE', 
+            headers: { 
+                'Content-type': 'application/json'
+            } 
+        })//.then(res => res.json()).then(json => this.handleDead(json)); 
+    }
+
+    deleteAnim(event){
+        //
+        console.log()
+    }
+
     render(){
         return(
             <div className="container-item deadline-cont">
                 DeadlineContainer
                 <form onSubmit={this.handleFormDead} className="form-dead">
-                    <input type="date" className="dead-input-date" ></input>
-                    <input type="text" className="dead-input-text" placeholder="Впиши Дедлайн"></input>
-                    <button type="submit">submit</button>  
+                    <input type="date" className="dead-input-date nut-input" ></input>
+                    <input type="text" className="dead-input-text nut-input" placeholder="Впиши Дедлайн"></input>
+                    <button className = 'btn'type="submit">Подтвердить</button>  
                 </form>
                 <div>
                     <ul >
-                        {this.state.arr.map((el, index) => <li key={index} className="list" >{el}</li>)}
+                        {this.state.arr.map((el, index) => <li key={index} className="list" >{el} <span onClick={(event) => {this.deletePost(index); event.target.parentElement.classList.add('delete');}} className="li-span">❌</span></li>)}
                     </ul>
                 </div>
                 

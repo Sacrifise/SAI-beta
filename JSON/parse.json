@@ -2,97 +2,62 @@
   "posts": [
     {
       "id": "1",
-      "title": "Мясо",
-      "Protein": "10",
-      "Fat": "8",
-      "Ugli": "40"
-    },
-    {
-      "id": "2",
-      "title": "Хлеб",
-      "Protein": "6",
-      "Fat": "8",
-      "Ugli": "30"
-    },
-    {
-      "id": "3",
-      "title": "неМясо",
-      "Protein": "2",
-      "Fat": "80",
-      "Ugli": "42"
-    },
-    {
-      "id": "4",
-      "title": "Гречка",
-      "Protein": "10",
-      "Fat": "2",
-      "Ugli": "65"
-    },
-    {
-      "id": "f3d8",
-      "title": "svsv",
-      "Protein": "2",
-      "Fat": "2",
-      "Ugli": "23"
-    },
-    {
-      "id": "9401",
       "title": "греча",
       "Protein": "12",
       "Fat": "23",
       "Ugli": "45"
     },
     {
-      "id": "d472",
+      "id": "3",
       "title": "",
       "Protein": "",
       "Fat": "",
       "Ugli": ""
     },
     {
-      "id": "c1c5",
+      "id": "4",
       "title": "",
       "Protein": "",
       "Fat": "",
       "Ugli": ""
     },
     {
-      "id": "981a",
+      "id": "5",
       "title": "",
       "Protein": "",
       "Fat": "",
       "Ugli": ""
     },
     {
-      "id": "ee22",
+      "id": "6",
       "title": "",
       "Protein": "",
       "Fat": "",
       "Ugli": ""
     },
     {
-      "id": "5b75",
+      "id": "7",
       "title": "",
       "Protein": "",
       "Fat": "",
       "Ugli": ""
     },
     {
-      "id": "3046",
+      "id": "8",
       "title": "",
       "Protein": "",
       "Fat": "",
       "Ugli": ""
     },
     {
-      "id": "5ad8",
+      "id": "9",
       "title": "",
       "Protein": "",
       "Fat": "",
       "Ugli": ""
     },
     {
-      "id": "1b7c",
+      "id": "10",
       "title": "",
       "Protein": "",
       "Fat": "",
@@ -143,14 +108,19 @@
   ],
   "comments": [
     {
+      "id": "0",
+      "date": "2005-07-15",
+      "task": "не абоба"
+    },
+    {
       "id": "1",
-      "task": "FUUUUCK U",
-      "date": "1-20-2024"
+      "date": "1111-01-13",
+      "task": "боб"
     },
     {
       "id": "2",
-      "task": "todo and not todo",
-      "date": "5-10-2025"
+      "date": "3833-03-18",
+      "task": "pop"
     }
   ],
   "profile": {

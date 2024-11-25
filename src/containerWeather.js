@@ -17,7 +17,7 @@ const ContainerWeather = () => {
     }, []);
 
     return(
-        <div className = 'container-item'>
+        <div className = 'container-item weather-cont'>
             Barnaul
             <img className='imgweather op' src='https://yastatic.net/weather/i/icons/funky/dark/ovc_-sn.svg'></img>
             {pogoda}

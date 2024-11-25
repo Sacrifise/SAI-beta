@@ -8,7 +8,11 @@
   align-content: flex-start;
   flex-shrink: 0;
 }
-
+.weather-cont{
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .imgweather{
   width: 50%;
   filter: hue-rotate(120deg) saturate(200%);
@@ -293,7 +297,7 @@
   transform: scale(1.05);
 }
 
-.submitNut{
+.btn{
   margin-top: 10px;
   background-color: black;
   border-radius: 20px;
@@ -303,7 +307,7 @@
   transition: hi 0.4s;
   
 }
-.submitNut:hover{
+.btn:hover{
   transition-property: background-color, box-shadow, border-color, color;
   transition-duration: 1s;
   background-color: #ffffff;
@@ -312,7 +316,7 @@
   color: #950740;
 
 }
-.submitNut:not(:hover){
+.btn:not(:hover){
   transition-property: background-color, box-shadow, border-color, color;
   transition-duration: 1s;
   background-color: black;
@@ -322,7 +326,7 @@
 
 }
 
-.submitNut:active{
+.btn:active{
   transition-property: background-color, box-shadow, border-color, color;
   transition-duration: 1s;
   background-color: #ffffff;
@@ -345,4 +349,18 @@
 .form-dead{
   display: flex;
   flex-direction: column;
+}
+
+.deadline-cont{
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.li-span{
+  filter: hue-rotate(-35deg) saturate(200%);
+}
+
+.delete{
+  display: none;
 }
